@@ -19,6 +19,22 @@ body {
 #menu {
   background: #8B0000;
   height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 /* sezione content */
@@ -63,6 +79,7 @@ body {
 
 /* footer */
 #footer {
+  margin-top: 20px;
   background: purple;
   height: 100px;
 }
