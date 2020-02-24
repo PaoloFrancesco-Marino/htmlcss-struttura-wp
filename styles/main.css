@@ -12,12 +12,12 @@ body {
 #header-image {
   margin: auto;
   margin-top: 20px;
-  background: red;
+  background: #888;
   height: 200px;
 }
 
 #menu {
-  background: #8B0000;
+  background: #333;
   height: 40px;
   text-align: center;
   line-height: 40px;
@@ -92,6 +92,8 @@ body {
 
 /* footer */
 #footer {
-  background: purple;
+  background: #888;
   height: 100px;
+  border: solid 2px black;
+  border-radius: 10px;
 }
