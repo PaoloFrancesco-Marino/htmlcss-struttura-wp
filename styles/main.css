@@ -1,5 +1,16 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  background: #ccc;
+}
+
+/* Sezione Header */
+#header-image {
+  background: red;
+  height: 200px;
+}
+
+#menu {
+  background: #8B0000;
+  height: 40px;
+
 }
