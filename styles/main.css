@@ -14,3 +14,45 @@
   height: 40px;
 
 }
+
+/* sezione content */
+
+
+.colonna {
+float: left;
+
+}
+
+.sx {
+  width: 25%;
+  background: purple;
+  height: 300px;
+}
+
+.cn {
+  float: left;
+  width: 50%;
+  background: green;
+  height: 200px;
+}
+
+.dx {
+  float: left;
+  width: 25%;
+  background: yellow;
+  height: 250px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/* footer */
+#footer {
+  background: blue;
+  width: 100%;
+  height: 100px;
+}
