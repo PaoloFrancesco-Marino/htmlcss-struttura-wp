@@ -76,6 +76,7 @@ header {
   border-bottom: 3px solid transparent;
   font-size: 10px;
   letter-spacing: 2px;
+  font-weight: bolder;
 }
 /* menu hover */
 #menu ul li a:hover {
