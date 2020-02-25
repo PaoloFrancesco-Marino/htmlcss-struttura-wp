@@ -145,7 +145,7 @@ header {
 
 .box p {
  margin-bottom: 10px;
- font-weight: bold;
+ font-weight: 500;
 }
 
 .colonna.cn p {
@@ -158,6 +158,7 @@ header {
 
 .colonna.sx p {
   color: green;
+  font-weight: 600;
 }
 /* fine contenuto colonne */
 
