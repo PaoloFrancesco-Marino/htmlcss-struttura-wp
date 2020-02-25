@@ -72,7 +72,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  padding: 8px 10px;
+  padding: 9px 10px;
   border-bottom: 3px solid transparent;
   font-size: 10px;
   letter-spacing: 2px;
@@ -81,6 +81,7 @@ header {
 /* menu hover */
 #menu ul li a:hover {
   border-color: #fff;
+  color: #ccc;
 }
 /* fine sezione header */
 
