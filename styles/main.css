@@ -167,16 +167,33 @@ header {
   border-bottom: solid 2px #ccc;
   height: 30px;
   line-height: 30px;
+  color: #ccc;
 }
 
 #socials {
   list-style: none;
   padding: 0;
-  height: 100px;
-  line-height: 100px;
+  height: 80px;
+  line-height: 80px;
 }
 
 #socials li {
   width: calc(100% /3);
   float: left;
+}
+
+/* icone social */
+.icona-facebook {
+  font-size: 30px;
+  color: #ccc;
+}
+
+.icona-instagram {
+  font-size: 30px;
+  color: #ccc;
+}
+
+.icona-github {
+  font-size: 30px;
+  color: #ccc;
 }
