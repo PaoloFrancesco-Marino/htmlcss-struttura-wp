@@ -8,7 +8,7 @@ body {
   background-image: url('../img/background-pagina.png');
 }
 
-#contenitore {
+#contenitore-generale {
   width: 80%;
   margin: auto;
   font-family: 'Roboto';
@@ -19,8 +19,7 @@ header {
   font-family: 'Montserrat';
   margin-top: 20px;
 }
-
-
+/* immagine + testo */
 .box-img {
   position: relative;
   background-size: cover;
@@ -51,8 +50,9 @@ header {
 .logo-img {
   width: 50%;
 }
+/* fine immagine + testo */
 
-/* menu */
+/* menu header*/
 #menu {
   background: #333;
   height: 40px;
@@ -74,25 +74,27 @@ header {
   color: #fff;
   padding: 8px 10px;
   border-bottom: 3px solid transparent;
+  font-size: 10px;
+  letter-spacing: 2px;
 }
-
+/* menu hover */
 #menu ul li a:hover {
   border-color: #fff;
 }
+/* fine sezione header */
 
 /* sezione content */
-
-#contenitore-tutto {
+#contenitore-main {
   margin-top: 20px;
 }
 
-#contenitore-tutto::after {
+#contenitore-main::after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* colonne */
+/* colonne + box general */
 
 .colonna {
   float: left;
@@ -118,7 +120,7 @@ header {
   background: #fff;
   margin-bottom: 20px;
 }
-
+ /* contenuto colonne */
 .contenuto {
   padding: 20px;
 }
@@ -126,19 +128,6 @@ header {
 .box h2 {
  margin-bottom: 10px;
  color: #333;
-}
-
-
-/* icona rss */
-.icona-rss {
-  float: left;
-  font-size: 30px;
-  color: #ccc;
-  margin-right: 5px;
-}
-
-.icona-rss:hover {
-  color: #ee802f;
 }
 
 .colonna.cn h2 {
@@ -166,6 +155,7 @@ header {
 .colonna.sx p {
   color: green;
 }
+/* fine contenuto colonne */
 
 /* footer */
 .footer {
@@ -194,6 +184,7 @@ header {
   width: calc(100% /4);
   float: left;
 }
+/* fine footer */
 
 /* icone social */
 .icona-facebook {
@@ -219,17 +210,30 @@ header {
 /* icone social hoover */
 
 .icona-facebook:hover {
-  color: #222;
+  color: #3b5998;
 }
 
 .icona-instagram:hover {
-  color: #222;
+  color: #C13584;
 }
 
 .icona-github:hover {
-  color: #222;
+  color: #211F1F;
 }
 
 .icona-wordpress:hover {
-  color: #222;
+  color: #00749c;
+}
+
+/* icona rss */
+.icona-rss {
+  float: left;
+  font-size: 30px;
+  color: #ccc;
+  margin-right: 5px;
+}
+
+/* icona rss-hover */
+.icona-rss:hover {
+  color: #ee802f;
 }
