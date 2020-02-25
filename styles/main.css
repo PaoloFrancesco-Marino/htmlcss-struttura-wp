@@ -18,12 +18,32 @@ body {
 header {
   font-family: 'Montserrat';
 }
-#header-image {
-  margin: auto;
-  margin-top: 20px;
-  background: #888;
-  height: 200px;
+
+.box-img {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+  background-image: url('../img/background-banner.jpeg');
 }
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.testo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+
+
 
 #menu {
   background: #333;
