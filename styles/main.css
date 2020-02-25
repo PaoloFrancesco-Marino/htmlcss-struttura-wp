@@ -128,6 +128,19 @@ header {
  color: #333;
 }
 
+
+/* icona rss */
+.icona-rss {
+  float: left;
+  font-size: 30px;
+  color: #ccc;
+  margin-right: 5px;
+}
+
+.icona-rss:hover {
+  color: #ee802f;
+}
+
 .colonna.cn h2 {
   text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
   margin-bottom: 40px;
@@ -178,7 +191,7 @@ header {
 }
 
 #socials li {
-  width: calc(100% /3);
+  width: calc(100% /4);
   float: left;
 }
 
@@ -196,4 +209,27 @@ header {
 .icona-github {
   font-size: 30px;
   color: #ccc;
+}
+
+.icona-wordpress {
+  font-size: 30px;
+  color: #ccc;
+}
+
+/* icone social hoover */
+
+.icona-facebook:hover {
+  color: #222;
+}
+
+.icona-instagram:hover {
+  color: #222;
+}
+
+.icona-github:hover {
+  color: #222;
+}
+
+.icona-wordpress:hover {
+  color: #222;
 }
