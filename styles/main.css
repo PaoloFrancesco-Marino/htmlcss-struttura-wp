@@ -1,14 +1,23 @@
+/* general styles */
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  background-image: url('../img/background-pagina.png');
+}
+
+#contenitore {
   width: 80%;
   margin: auto;
+  font-family: 'Roboto';
 }
 
 /* Sezione Header */
+header {
+  font-family: 'Montserrat';
+}
 #header-image {
   margin: auto;
   margin-top: 20px;
@@ -73,7 +82,7 @@ body {
 
 .box {
   height: 400px;
-  background: #ccc;
+  background: #fff;
   margin-bottom: 20px;
 }
 
@@ -90,7 +99,7 @@ body {
 #socials {
   list-style: none;
   padding: 0;
-  background: #ccc;
+  background: #fff;
   height: 100px;
   line-height: 100px;
 }
