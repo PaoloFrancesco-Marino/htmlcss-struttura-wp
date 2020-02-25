@@ -81,7 +81,7 @@ body {
 
 .box {
   height: calc(90% / 3);
-    background: #ccc;
+  background: #ccc;
   border: solid 2px black;
   border-radius: 10px;
   margin-bottom: 10%;
