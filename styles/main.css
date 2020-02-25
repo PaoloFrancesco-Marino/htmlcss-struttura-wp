@@ -58,19 +58,16 @@ body {
 
 .sx {
   width: 25%;
-  background: rgba(255, 0, 0, 0.1);
   padding-right: 10px;
 }
 
 .cn {
   width: 50%;
-  background: rgba(0, 255, 0, 0.1);
   padding: 0 10px;
 }
 
 .dx {
   width: 25%;
-  background: rgba(0, 0, 255, 0.1);
   padding-left: 10px;
 }
 
@@ -82,9 +79,23 @@ body {
 
 /* footer */
 #footer {
-  background: #888;
+  text-align: center;
+}
+
+#testo-footer {
+  height: 50px;
+  background: #ccc;
+}
+
+#socials {
+  list-style: none;
+  padding: 0;
+  background: #ccc;
   height: 100px;
-  border: solid 2px black;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  line-height: 100px;
+}
+
+#socials li {
+  width: calc(100% /3);
+  float: left;
 }
